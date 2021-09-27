@@ -18,6 +18,7 @@ node_modules/
 /web/sites/default/settings.local.php
 /web/sites/default/settings.php
 /web/sites/default/default.services.yml
+web/sites/default/services.yml
 
 
 # Ignore Drupal's file directory
