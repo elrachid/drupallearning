@@ -1,0 +1,22 @@
+uuid: b2e1b71a-af7d-4abc-99c3-3ae38c1f70df
+langcode: en
+status: false
+dependencies:
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
+id: drupal_learning_primary_local_tasks
+theme: drupal_learning
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

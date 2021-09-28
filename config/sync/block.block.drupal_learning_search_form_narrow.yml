@@ -1,0 +1,23 @@
+uuid: 38b57971-f9bb-46f7-b22f-78ef1d611598
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: WcXqPc7NoExO03VwGjmiiEkqTr7N2YqKzsq9Bz9Orh8
+id: drupal_learning_search_form_narrow
+theme: drupal_learning
+region: content
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

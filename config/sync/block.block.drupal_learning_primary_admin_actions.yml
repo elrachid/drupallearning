@@ -1,0 +1,20 @@
+uuid: a9d0a394-f612-4c10-9f5b-b94db1626d3d
+langcode: en
+status: false
+dependencies:
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: sBMSSrWtP58IZaz1i3-MJ9yq_y32w1nc7N5DZJmt-4M
+id: drupal_learning_primary_admin_actions
+theme: drupal_learning
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

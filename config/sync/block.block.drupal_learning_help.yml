@@ -1,0 +1,22 @@
+uuid: 8c1e5f31-94e2-442b-b4c7-ce7196824b34
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: VV9kqYMqLSoPSMw-XVpo0auKK0RfnbQTkqYPVQxqaV0
+id: drupal_learning_help
+theme: drupal_learning
+region: content
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 0155a5ef-6b66-4162-83a8-a9d88fe9b665
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: BL6Gcw5Us0zai1ADadlNYLxlEblMedc_3C3lF0PjtCE
+id: drupal_learning_content
+theme: drupal_learning
+region: content
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

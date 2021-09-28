@@ -1,0 +1,20 @@
+uuid: c92f78a2-3c1b-4be9-89e7-8565242d3c96
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal_learning
+id: poweredbydrupal
+theme: drupal_learning
+region: social
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: b84692cc-7f44-48c2-b92f-d05011f57446
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - drupal_learning
+id: searchform
+theme: drupal_learning
+region: primary_menu
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

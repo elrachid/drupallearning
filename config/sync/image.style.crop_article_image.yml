@@ -1,0 +1,15 @@
+uuid: 9ad325ba-d47b-4117-9109-67739cc0e332
+langcode: en
+status: true
+dependencies: {  }
+name: crop_article_image
+label: 'Crop article Image'
+effects:
+  e9175f38-b790-46c9-8d14-85becae77f7a:
+    uuid: e9175f38-b790-46c9-8d14-85becae77f7a
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: false

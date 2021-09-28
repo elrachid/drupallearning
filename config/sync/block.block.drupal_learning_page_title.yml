@@ -1,0 +1,20 @@
+uuid: 0a916b86-5605-433c-9538-b68a1aef01d9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: WImvmaBdDpwIqobqbDWebBnyxssRvrNEnZSQbOsvOe4
+id: drupal_learning_page_title
+theme: drupal_learning
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

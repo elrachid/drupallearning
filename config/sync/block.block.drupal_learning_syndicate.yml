@@ -1,0 +1,23 @@
+uuid: 9a39e5ba-2c2e-4f8f-b829-562377f34028
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - drupal_learning
+_core:
+  default_config_hash: jGkBUnwRXYacHWTR8hjjwn_a_PRM-Xj_xSHoB0WIfEo
+id: drupal_learning_syndicate
+theme: drupal_learning
+region: social
+weight: -10
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  provider: node
+  label_display: '0'
+  block_count: 10
+visibility: {  }
