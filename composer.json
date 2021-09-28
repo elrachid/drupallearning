@@ -16,7 +16,9 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/ajax_comments": "^1.0@beta",
         "drupal/codesnippet": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
